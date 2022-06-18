@@ -1,0 +1,24 @@
+@use "colors";
+@use "card-members";
+@use "card-image";
+@use "card-description";
+@use "card-product";
+@use "card-button";
+
+.card {
+  // Layout
+  @include card-members.custom-layout(column, center, space-between);
+
+  // Box Model
+  width: 32rem;
+  border-radius: 1.5rem;
+
+  // Display
+  background: colors.$white;
+  box-shadow: 0 0.5rem 2rem lighten(colors.$dark-blue, 50%);
+
+  @include card-image.properties;
+  @include card-description.properties;
+  @include card-product.properties;
+  @include card-button.properties;
+}

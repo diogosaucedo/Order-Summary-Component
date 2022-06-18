@@ -1,0 +1,51 @@
+@use "colors";
+@use "card-members";
+
+@mixin properties() {
+  &__product {
+    // Layout
+    @include card-members.custom-layout(row, center, space-between);
+
+    // Box model
+    width: 25rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    height: 7.7rem;
+
+    // Display
+    background: colors.$very-pale-blue;
+  }
+
+  &__product-details {
+    // Layout
+    @include card-members.custom-layout(row, center, space-between);
+
+    // Box model
+    width: 12rem;
+    height: 100%;
+  }
+
+  &__product-icon {
+    width: 3.5rem;
+  }
+
+  &__product-plan {
+    // Layout
+    @include card-members.custom-layout(column, flex-start, space-between);
+
+    // Box model
+    height: 100%;
+  }
+
+  &__product-name {
+    @include card-members.custom-font(1.3rem, 900, colors.$dark-blue);
+  }
+
+  &__product-price {
+    @include card-members.custom-font(1.2rem, 500, colors.$desaturated-blue);
+  }
+  
+  &__product-change {
+    @include card-members.custom-font(1.1rem, 900, colors.$bright-blue);
+  }
+}

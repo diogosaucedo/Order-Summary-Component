@@ -1,0 +1,26 @@
+@use "card-members";
+@use "colors";
+
+@mixin properties() {
+  &__description {
+    // Layout
+    @include card-members.custom-layout(column, center, space-around);
+
+    // Box model
+    padding: 2rem 0;
+    height: 15rem;
+  }
+
+  &__description-title {
+    @include card-members.custom-font(2rem, 900, colors.$dark-blue);
+  }
+  
+  &__description-text {
+    // Box model
+    max-width: 22rem;
+
+    // Display
+    @include card-members.custom-font(1.2rem, 500, colors.$desaturated-blue);
+    text-align: center;
+  }
+}

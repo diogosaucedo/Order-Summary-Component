@@ -1,0 +1,194 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Red Hat Display", sans-serif;
+}
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 32rem;
+  border-radius: 1.5rem;
+  background: #fff;
+  -webkit-box-shadow: 0 0.5rem 2rem #9aacdb;
+  box-shadow: 0 0.5rem 2rem #9aacdb;
+}
+.card__hero {
+  max-width: 100%;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+.card__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding: 2rem 0;
+  height: 15rem;
+}
+.card__description-title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1f2f56;
+}
+.card__description-text {
+  max-width: 22rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #7280a7;
+  text-align: center;
+}
+.card__product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 25rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  height: 7.7rem;
+  background: #f5f7ff;
+}
+.card__product-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 12rem;
+  height: 100%;
+}
+.card__product-icon {
+  width: 3.5rem;
+}
+.card__product-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+}
+.card__product-name {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #1f2f56;
+}
+.card__product-price {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #7280a7;
+}
+.card__product-change {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #3829e0;
+}
+.card__group-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 12rem;
+  padding: 2rem 0;
+}
+.card__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 25rem;
+  border-radius: 1rem;
+  height: 3.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #7280a7;
+  text-decoration: none;
+}
+.card__button--active {
+  background: #3829e0;
+  color: #fff;
+  -webkit-box-shadow: 0 0.8rem 1.5rem #bfcbe8;
+  box-shadow: 0 0.8rem 1.5rem #bfcbe8;
+} /*# sourceMappingURL=main.css.map */
