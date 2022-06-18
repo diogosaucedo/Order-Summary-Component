@@ -5,6 +5,10 @@
 @use "card-product";
 @use "card-button";
 
+// ==========================================================================
+// Card
+// ==========================================================================
+
 .card {
   // Layout
   @include card-members.custom-layout(column, center, space-between);

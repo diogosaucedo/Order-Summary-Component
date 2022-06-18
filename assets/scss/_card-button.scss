@@ -23,11 +23,11 @@
     // Display
     @include card-members.custom-font(1.2rem, 700, colors.$desaturated-blue);
     text-decoration: none;
-  }
-
-  &__button--active {
-    background: colors.$bright-blue;
-    color: colors.$white;
-    box-shadow: 0 0.8rem 1.5rem lighten(colors.$dark-blue, 60%);
+    
+    &--active {
+      background: colors.$bright-blue;
+      color: colors.$white;
+      box-shadow: 0 0.8rem 1.5rem lighten(colors.$dark-blue, 60%);
+    }
   }
 }
